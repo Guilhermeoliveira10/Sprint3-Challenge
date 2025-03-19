@@ -2,17 +2,14 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-// Importa a tipagem do Stack Navigator
 import { RootStackParamList } from './src/types';
 
-// Importação das telas
 import LoginScreen from './src/screens/LoginScreen';
 import MainMenuScreen from './src/screens/MainMenuScreen';
 import QuizScreen from './src/screens/QuizScreen';
 import DoubtsScreen from './src/screens/DoubtsScreen';
 import AlarmScreen from './src/screens/AlarmScreen';
 
-// Criação do Stack Navigator tipado corretamente
 const Stack = createStackNavigator<RootStackParamList>();
 
 export default function App() {
