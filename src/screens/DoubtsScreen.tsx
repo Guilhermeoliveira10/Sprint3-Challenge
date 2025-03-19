@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet, ActivityIndicator, Alert } from 'react-native';
-import apiAdvice from '../services/apiAdvice'; // Importando a API correta
+import apiAdvice from '../services/apiAdvice';
 
 const DoubtsScreen = () => {
   const [advice, setAdvice] = useState('');
