@@ -2,11 +2,9 @@ import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation, NavigationProp } from '@react-navigation/native';
 
-// Importa o tipo do stack navigator
 import { RootStackParamList } from '../types';
 
 const MainMenuScreen = () => {
-  // Define a tipagem correta da navegação
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
 
   return (
