@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Switch, Image, StyleSheet } from 'react-native';
 import { useNavigation, NavigationProp } from '@react-navigation/native';
 
-// Importa a tipagem do stack navigator
 import { RootStackParamList } from '../types';
 
 const LoginScreen = () => {
